@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.buddies.questionaddingapp.sportquestion">
+
+    <EditText
+        android:id="@+id/editText01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:hint="Question"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText01"
+        android:layout_below="@+id/editText01"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Choice1"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText002"
+        android:layout_below="@+id/editText002"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="Choice2"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText004"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText003"
+        android:layout_below="@+id/editText003"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="Choice3"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText004"
+        android:layout_below="@+id/editText004"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Answer"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText005"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="33dp"
+        android:layout_marginEnd="56dp"
+        android:text="Submit" />
+
+</RelativeLayout>
