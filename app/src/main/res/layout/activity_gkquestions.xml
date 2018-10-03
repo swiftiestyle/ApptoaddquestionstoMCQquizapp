@@ -40,27 +40,10 @@
         android:hint="Choice2"
         android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/editText04"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/editText03"
-        android:layout_below="@+id/editText03"
-        android:layout_marginTop="25dp"
-        android:ems="10"
-        android:hint="Choice3"
-        android:inputType="textPersonName" />
-
-    <EditText
-        android:id="@+id/editText05"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/editText04"
-        android:layout_below="@+id/editText04"
-        android:layout_marginTop="35dp"
-        android:ems="10"
-        android:hint="Answer"
-        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/textview"
+        andorid:layout_margin="16dp"
+        android:layout_below="@+id/editText2"/>
 
     <Button
         android:id="@+id/button5"
